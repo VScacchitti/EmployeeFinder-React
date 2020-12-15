@@ -2,14 +2,14 @@
 import './App.css';
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header"
-import TableArea from "./components/TableArea"
+import Main from "./components/Main"
 
 function App() {
   return (
     <div className="App">
       <Wrapper>
         <Header />
-        <TableArea/>
+        <Main />
       </Wrapper>
     </div>
   );
