@@ -46,3 +46,12 @@ p {
   justify-content: center;
   align-self: flex-start;
 }
+
+.searchbar button {
+  border: 1px solid #052a8f;
+}
+
+.searchbar button:hover {
+  background-color: #052a8f;
+  color: aliceblue;
+}
