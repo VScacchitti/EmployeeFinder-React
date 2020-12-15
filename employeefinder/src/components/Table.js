@@ -25,7 +25,7 @@ function Table({headings, users, handleSort }) {
             })}
           </tr>
         </thead>
-                < TableBody/>
+                < TableBody users={users}/>
             </table>
         </div>
     )

@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 
-function TableBody ({users}){
+function TableBody({users}) {
 
     function formatDate(date) {
         const dateArray = date.split("-");
@@ -13,8 +13,9 @@ function TableBody ({users}){
         return formattedDate;
       }
 
-      <tbody>
-          {users[0] !== undefined && users[0].name !== undefined ? (
+      return (
+        <tbody>
+        {users[0] !== undefined && users[0].name !== undefined ? (
           users.map(({ login, name, picture, phone, email, dob }) => {
             return (
               <tr key={login.uuid}>
@@ -46,4 +47,7 @@ function TableBody ({users}){
           <></>
         )}
       </tbody>
+      )
 }
+
+export default TableBody;
