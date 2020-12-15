@@ -55,3 +55,24 @@ p {
   background-color: #052a8f;
   color: aliceblue;
 }
+
+.form-control {
+  text-align: center;
+}
+
+.datatable .col .pointer:after {
+  font-size: 80%;
+  content: "";
+  margin-right: 18px;
+}
+
+.datatable .col .pointer:after {
+  font-size: 80%;
+  content: "🔻";
+  margin-right: 0;
+}
+
+th {
+  background-color: aliceblue;
+  color: #052a8f;
+}
